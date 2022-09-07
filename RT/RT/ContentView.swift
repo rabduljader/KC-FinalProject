@@ -18,20 +18,22 @@ struct ContentView: View {
                 
             NavigationView{
                 ScrollView {
-        
+                Divider()
                     VStack{
-                    Text("يــنتج من كل تــفاعل في الســوق نوعاً من التقييم الممــكن نقله إلى الآخــــرين من قِــبَل المتلقي للتفاعل")
-                                .multilineTextAlignment(.center)
+Text("“Your most unhappy customers are your greatest source of learning.” ")                                .multilineTextAlignment(.center)
                     .font(.system(size: 15, weight: .light , design: .default))
                     .lineSpacing(14)
 
                     .padding()
-                            Text("جيم بلاسينجيم")
-                                .font(.system(size: 13, weight: .light , design: .default))
+                        Text("Bill Gates")
+                            .font(.system(size: 12, weight: .light , design: .default))
                                 .multilineTextAlignment(.trailing)
                                 .lineLimit(nil)
                                 .frame(width: 90, height: 10)
-                    
+                        Text("The Microsoft Corporation founder")
+                            .font(.system(size: 9, weight: .light , design: .default))
+                                .multilineTextAlignment(.trailing)
+                                .lineLimit(nil)
                     }
                     
                     .padding()
@@ -45,8 +47,6 @@ struct ContentView: View {
             RowView(category: category)
 
         }
-
-
                     }
 
                 }

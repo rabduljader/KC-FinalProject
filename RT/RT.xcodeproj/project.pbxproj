@@ -15,6 +15,13 @@
 		872E9DDD28C5190300C39D09 /* categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 872E9DDC28C5190300C39D09 /* categories.swift */; };
 		87BFF22F28C787CD00D9628C /* mainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF22E28C787CD00D9628C /* mainView.swift */; };
 		87BFF23128C78B3500D9628C /* devicesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BFF23028C78B3500D9628C /* devicesView.swift */; };
+		87D0CFDC28C91F2400D94E5D /* Rating view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D0CFDB28C91F2400D94E5D /* Rating view.swift */; };
+		87FDA63A28C8E2D7000F120E /* Apple page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDA63928C8E2D7000F120E /* Apple page.swift */; };
+		87FDA63E28C8E34B000F120E /* Apple products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDA63D28C8E34B000F120E /* Apple products.swift */; };
+		87FDA64028C8F008000F120E /* Samsung Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDA63F28C8F008000F120E /* Samsung Page.swift */; };
+		87FDA64228C8F02D000F120E /* Samsung products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDA64128C8F02D000F120E /* Samsung products.swift */; };
+		87FDA64428C8FF64000F120E /* Huawei Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDA64328C8FF64000F120E /* Huawei Products.swift */; };
+		87FDA64628C91822000F120E /* Huawei page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87FDA64528C91822000F120E /* Huawei page.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +34,13 @@
 		872E9DDC28C5190300C39D09 /* categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = categories.swift; sourceTree = "<group>"; };
 		87BFF22E28C787CD00D9628C /* mainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainView.swift; sourceTree = "<group>"; };
 		87BFF23028C78B3500D9628C /* devicesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = devicesView.swift; sourceTree = "<group>"; };
+		87D0CFDB28C91F2400D94E5D /* Rating view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rating view.swift"; sourceTree = "<group>"; };
+		87FDA63928C8E2D7000F120E /* Apple page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apple page.swift"; sourceTree = "<group>"; };
+		87FDA63D28C8E34B000F120E /* Apple products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Apple products.swift"; sourceTree = "<group>"; };
+		87FDA63F28C8F008000F120E /* Samsung Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Samsung Page.swift"; sourceTree = "<group>"; };
+		87FDA64128C8F02D000F120E /* Samsung products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Samsung products.swift"; sourceTree = "<group>"; };
+		87FDA64328C8FF64000F120E /* Huawei Products.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Huawei Products.swift"; sourceTree = "<group>"; };
+		87FDA64528C91822000F120E /* Huawei page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Huawei page.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,9 +77,16 @@
 				872E9DD028C5187A00C39D09 /* ContentView.swift */,
 				87BFF22E28C787CD00D9628C /* mainView.swift */,
 				87BFF23028C78B3500D9628C /* devicesView.swift */,
+				87FDA63928C8E2D7000F120E /* Apple page.swift */,
+				87FDA63F28C8F008000F120E /* Samsung Page.swift */,
+				87FDA64528C91822000F120E /* Huawei page.swift */,
+				87D0CFDB28C91F2400D94E5D /* Rating view.swift */,
 				872E9DD228C5188100C39D09 /* Assets.xcassets */,
 				872E9DD428C5188100C39D09 /* Preview Content */,
 				872E9DDC28C5190300C39D09 /* categories.swift */,
+				87FDA63D28C8E34B000F120E /* Apple products.swift */,
+				87FDA64128C8F02D000F120E /* Samsung products.swift */,
+				87FDA64328C8FF64000F120E /* Huawei Products.swift */,
 				8707B69328C69A9D006CB1A8 /* RowView.swift */,
 			);
 			path = RT;
@@ -151,10 +172,17 @@
 			files = (
 				872E9DDD28C5190300C39D09 /* categories.swift in Sources */,
 				87BFF23128C78B3500D9628C /* devicesView.swift in Sources */,
+				87D0CFDC28C91F2400D94E5D /* Rating view.swift in Sources */,
 				8707B69428C69A9D006CB1A8 /* RowView.swift in Sources */,
+				87FDA64428C8FF64000F120E /* Huawei Products.swift in Sources */,
 				87BFF22F28C787CD00D9628C /* mainView.swift in Sources */,
+				87FDA64028C8F008000F120E /* Samsung Page.swift in Sources */,
 				872E9DD128C5187A00C39D09 /* ContentView.swift in Sources */,
+				87FDA63E28C8E34B000F120E /* Apple products.swift in Sources */,
+				87FDA64628C91822000F120E /* Huawei page.swift in Sources */,
+				87FDA64228C8F02D000F120E /* Samsung products.swift in Sources */,
 				872E9DCF28C5187A00C39D09 /* RTApp.swift in Sources */,
+				87FDA63A28C8E2D7000F120E /* Apple page.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
